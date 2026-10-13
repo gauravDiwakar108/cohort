@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #fbc70c 50%, #fbe8b5 50%);
+  /* background: #fbc70c; */
+}
+
+.nav {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav .menu i {
+  font-size: 40px;
+}
+
+main {
+  display: flex;
+}
+
+/* left style  */
+left {
+  height: calc(100% - 100px);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* background: greenyellow; */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 80px;
+  width: 30%;
+}
+
+.left h2 {
+  font-weight: 400;
+}
+
+.left h1 {
+  font-size: 120px;
+}
+
+.left p {
+  font-weight: 300;
+}
+
+.btm {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.line {
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  background: black;
+  border: 1px solid gray;
+}
+
+/* right style */
+.right {
+  width: 50%;
+  /* background: red; */
+}
+
+.right img {
+  height: 600px;
+}
