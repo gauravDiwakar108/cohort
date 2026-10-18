@@ -13,15 +13,10 @@ body {
   font-family: "Varela Round", sans-serif;
 }
 
-/* body {
-  background: linear-gradient(
-    135deg,
-    #ffffff 0%,
-    #e0f7ff 30%,
-    #87cefa 65%,
-    #2196f3 100%
-  );
-} */
+body {
+  background:
+    rgb(233, 250, 255);
+}
 
 /* header style  */
 header {
@@ -266,11 +261,91 @@ main {
   height: 35px;
   /* padding: 2px 6px; */
 }
-.p-type i {
+.p-type i, img {
   color: #6db563;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .p-type p {
   font-size: 10px;
+}
+
+/* footer styel */
+
+footer {
+  width: 100%;
+  height: 120px;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f_container {
+  display: flex;
+  width: 90%;
+  height: 70%;
+  align-items: center;
+  justify-content: space-between;
+  background: #F5F7FD;
+  border-radius: 16px;
+}
+
+.f_container .f_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f_container .f_card .c_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  /* background: greenyellow; */
+  height: 60px;
+  /* border-radius: 50%; */
+}
+
+.img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #ECEEFD; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.f_container .f_card .c_left img {
+  width: 35px;
+}
+
+.f_container .f_card .c_right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 50%;
+}
+
+.explore {
+  background: #ECEFFE;
+}
+
+.filter {
+  background: #E7F1EC;
+}
+
+.collection {
+  background: #F9F1E8;
+}
+
+.stats {
+  background: #EAE3FD;
+}
+
+span {
+  height: 60%;
+  width: 2px;
+  background: #ECEDF6;
 }
