@@ -13,6 +13,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* header style */
+
 header {
   width: 100%;
   height: 100px;
@@ -22,11 +24,12 @@ header {
 }
 
 nav {
-  width: 95%;
+  width: 90%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid red;
 }
 
 .logo-container {
@@ -105,4 +108,118 @@ nav {
   width: 30px;
   height: 2px;
   background: #000;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-layout {
+  display: flex;
+  width: 90%;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  height: 500px;
+  width: 30%;
+  /* background: red; */
+  border: 1px solid red;
+}
+
+.product-info .product-info_eyebrow>span {
+  font-size: 2.5vw;
+}
+.product-info .product-info_eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: .9vw;
+  margin-bottom: 15px;
+}
+
+.product-info .product-info_title {
+  font-size: 5vw;
+  height: auto;
+  /* background: yellow; */
+  line-height: 70px;
+  margin-bottom: 15px;
+}
+
+.product-info .product-description-cutter {
+  width: 25%;
+  background: black;
+  height: 1.5px;
+  margin-bottom: 15px;
+}
+
+.product-info .product-info_description {
+  font-size: 14px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.product-info .product-colors {
+  display: flex;
+  width: 55%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.product-info .product-colors .product-colors_label {
+  font-size: 15px;
+}
+
+.product-info .product-colors .product-colors_switch {
+  width: 25px;
+  height: 25px;
+  background: blue;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.product-info .product-colors .product-colors_switch-olive {
+  background: #7B816B;
+}
+
+.product-info .product-colors .product-colors_switch-beige {
+  background: #E4DCD3;
+}
+
+.product-info .product-colors .product-colors_switch-rose {
+  background: #E1A7A7;
+}
+
+.product-info .product-details {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.product-info .product-details .product-details_title-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.product-info .product-details .product-details_title-container>span {
+  display: flex;
+  width: 10%;
+  background: black;
+  height: 2px;
+}
+
+.product-info .product-details .product-details_description {
+  font-size: 12px;
+  /* width: 80%; */
 }
