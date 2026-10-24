@@ -18,7 +18,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background: red;
+  background: #f0f0f0;
   height: 150px;
 }
 
@@ -26,7 +26,6 @@ header .header-first {
   display: flex;
   width: 100%;
   height: 50px;
-  background: black;
 }
 
 header .header-second {
@@ -50,8 +49,19 @@ header .logo-container i {
 
 header .logo-heading {
   font-size: 50px;
+  width: 60%;
+  /* background: green; */
+  font-size: 2.5vw;
 }
 
-header .logo-heading > span > img {
-  height: 60px;
+header .header-second .logo-heading > h3 > span > img {
+  height: 50px;
+}
+
+header .header-second .nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  width: 20%;
 }
