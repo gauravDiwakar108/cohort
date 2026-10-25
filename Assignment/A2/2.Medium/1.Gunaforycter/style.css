@@ -143,12 +143,11 @@ main .main-container-first {
   color: #fa8111;
 }
 
-
 .main-container-second {
   width: 86%;
   height: 300px;
   display: flex;
-  background: #110F0F;
+  background: #110f0f;
   align-items: center;
   justify-content: space-around;
   border-radius: 16px;
@@ -191,7 +190,7 @@ main .main-container-first {
   font-size: 30px;
 }
 
-.chef-details-upper>p {
+.chef-details-upper > p {
   font-size: 14px;
 }
 
@@ -199,11 +198,11 @@ main .main-container-first {
   width: 60%;
 }
 
-.chef-details-bottom p{
+.chef-details-bottom p {
   font-size: 15px;
 }
 
-.chef-special-details>button {
+.chef-special-details > button {
   width: 25%;
   height: 35px;
   background: none;
@@ -220,4 +219,77 @@ main .main-container-first {
 
 .img-2 {
   margin-right: 25px;
+}
+
+/* footer style */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #fa8111;
+}
+
+.footer-container {
+  /* background: green; */
+  display: flex;
+  width: 86%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-first-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer-middle-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.footer-middle-container ul i {
+  font-size: 5px;
+  color: #fa8111;
+}
+
+.footer-middle-container ul li {
+  list-style: none;
+}
+
+.footer-middle-container ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-box i {
+  font-size: 15px;
+  color: #fa8111;
+}
+
+.social-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.social-links-container p {
+  color: white;
+}
+
+
+.social-box {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  /* background: yellow; */
+  border: 1px solid #fa8111;
+  border-radius: 50%;
 }
