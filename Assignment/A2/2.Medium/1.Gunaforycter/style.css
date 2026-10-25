@@ -53,10 +53,12 @@ header div img {
 
 main {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 500px;
+  height: 800px;
   align-items: center;
   justify-content: center;
+  /* background: green; */
 }
 
 main .main-container-first {
@@ -64,6 +66,7 @@ main .main-container-first {
   width: 90%;
   height: 400px;
   justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 .product-container {
@@ -73,6 +76,7 @@ main .main-container-first {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
+  box-shadow: 0 2px 25px black;
 }
 
 .product-flag {
@@ -137,4 +141,83 @@ main .main-container-first {
 
 .price-container {
   color: #fa8111;
+}
+
+
+.main-container-second {
+  width: 86%;
+  height: 300px;
+  display: flex;
+  background: #110F0F;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 16px;
+  box-shadow: 0 2px 25px black;
+}
+
+.main-container-second .img-container {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  /* background: yellow; */
+}
+
+.main-container-second .img-container img {
+  height: 100%;
+}
+
+.main-container-second .chef-special-details {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-left: 15px;
+  color: white;
+}
+
+.chef-special-details .chef-details-upper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chef-details-upper .chef-tag {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #fa8111;
+}
+
+.chef-heading {
+  font-size: 30px;
+}
+
+.chef-details-upper>p {
+  font-size: 14px;
+}
+
+.chef-details-bottom {
+  width: 60%;
+}
+
+.chef-details-bottom p{
+  font-size: 15px;
+}
+
+.chef-special-details>button {
+  width: 25%;
+  height: 35px;
+  background: none;
+  outline: none;
+  border: 1px solid #fa8111;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  color: #fa8111;
+  cursor: pointer;
+}
+
+.img-2 {
+  margin-right: 25px;
 }
