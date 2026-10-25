@@ -11,8 +11,11 @@ body {
 }
 
 body {
-  background: rgb(81, 81, 81);
+  background: #0c0a0a;
+  font-family: "segoe ui";
 }
+
+/* header style */
 
 header {
   display: flex;
@@ -21,24 +24,10 @@ header {
   height: 100px;
   align-items: center;
   justify-content: center;
-  background: grey;
 }
 
 header h2 {
-  font-family:
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI Variable Display",
-    "Segoe UI",
-    Helvetica,
-    "Apple Color Emoji",
-    "Noto Sans Arabic",
-    "Noto Sans Hebrew",
-    Arial,
-    sans-serif,
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "segoe ui";
   font-size: 40px;
   font-weight: 400;
   line-height: 24px;
@@ -50,12 +39,102 @@ header h2 {
 }
 
 header div {
-    display: flex;
-    width: 8%;
-    height: 30px;
-    /* background: yellow; */
+  display: flex;
+  width: 8%;
+  height: 30px;
+  /* background: yellow; */
 }
 
-header div img{
-    height: 100%;
+header div img {
+  height: 100%;
+}
+
+/* main style */
+
+main {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+main .main-container-first {
+  display: flex;
+  width: 90%;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.product-flag {
+  display: flex;
+  width: 90px;
+  height: 6%;
+  left: 10px;
+  top: 10px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  /* background: yellow; */
+  border: 1px solid #fa8111;
+  position: absolute;
+  gap: 5px;
+}
+
+.product-flag i {
+  color: #fa8111;
+  font-size: 12px;
+}
+
+.product-flag p {
+  font-size: 12px;
+  color: #fa8111;
+  font-weight: 500;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #13110f;
+  gap: 20px;
+}
+
+.product-details-container .product-image-container {
+  height: 60%;
+}
+
+.product-details-container .product-image-container img {
+  height: 100%;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  gap: 10px;
+  color: white;
+}
+
+.product-details-container .divider {
+  width: 25%;
+  height: 1.3px;
+  background: #fa8111;
+}
+
+.price-container {
+  color: #fa8111;
 }
