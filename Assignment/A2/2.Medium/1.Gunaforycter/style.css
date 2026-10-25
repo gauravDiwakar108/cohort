@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: rgb(81, 81, 81);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+}
+
+header h2 {
+  font-family:
+    ui-sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI Variable Display",
+    "Segoe UI",
+    Helvetica,
+    "Apple Color Emoji",
+    "Noto Sans Arabic",
+    "Noto Sans Hebrew",
+    Arial,
+    sans-serif,
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f0efed;
+  /* background: red; */
+  width: 25%;
+  text-align: center;
+  height: 50%;
+}
+
+header div {
+    display: flex;
+    width: 8%;
+    height: 30px;
+    /* background: yellow; */
+}
+
+header div img{
+    height: 100%;
+}
