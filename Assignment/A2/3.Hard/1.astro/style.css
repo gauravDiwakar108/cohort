@@ -11,6 +11,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif;
+  background: #fcf4ee;
 }
 
 header {
@@ -96,7 +97,8 @@ main {
   display: flex;
   width: 100%;
   height: 800px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  background: #fcf4ee;
 }
 
 .hero-section-left {
@@ -230,4 +232,157 @@ h3.product-price {
 
 .hero-section-right {
   width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  gap: 25px;
+}
+
+.size-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  gap: 15px;
+}
+
+.size-container > h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.size-container .sizes {
+  display: flex;
+  gap: 10px;
+}
+
+.sizes > div {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background: #f4ece5;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.size-guide {
+  display: flex;
+  gap: 5px;
+}
+
+.size-guide > button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.size-guide > i {
+  color: #cf6729;
+}
+
+.hero-section-right > span {
+  width: 60%;
+  display: flex;
+  height: 1px;
+  background: #aeaeae;
+}
+
+.image-color-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-color-container > h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.image-color-section {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 15px;
+}
+
+.image-color-section .image-color-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-color-card > p {
+  font-size: 12px;
+}
+
+.image-color-card > div {
+  background: #e2dad6;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  gap: 15px;
+}
+
+.hero-section-right img {
+  height: 100%;
+}
+
+.addtocart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 60%;
+}
+
+.wishlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgb(195, 194, 194);
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 100%;
+  
+}
+
+.wishlist > button {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.bag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgb(195, 194, 194);
+  padding: 15px 25px;
+  width: 100%;
+  border-radius: 25px;
+  background: #e85c02;
+  color: white;
+  gap: 15px;
+}
+
+.bag > button {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
 }
